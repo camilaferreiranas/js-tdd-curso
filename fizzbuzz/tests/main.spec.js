@@ -18,4 +18,7 @@ describe('Main', () => {
     it('should return the number', () => {
         expect(Fizzbuzz(7)).to.be.equal(7)
     })
+    it('should return 0 when number is 0', () => {
+        expect(Fizzbuzz(0)).to.be.equal(0)
+    })
 })
