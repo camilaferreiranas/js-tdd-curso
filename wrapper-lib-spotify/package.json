@@ -9,7 +9,6 @@
     "build": "npm run clear && ./node_modules/.bin/babel --out-dir lib src",
     "build:watch": "npm run build -- --watch",
     "lint": "eslint src/*.js",
-    "prepush": "npm run lint",
     "test": "mocha tests/**/*.spec.js --require babel-register --watch",
     "test:coverage": "nyc npm test",
     "coveralls": "npm run test:coverage && nyc report --reporter=text-lcov | coveralls"
