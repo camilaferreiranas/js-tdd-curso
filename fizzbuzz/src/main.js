@@ -7,4 +7,5 @@ const FizzBuz = (num) => {
     //return num || possibilidade
 }
 
+
 export default  FizzBuz;
